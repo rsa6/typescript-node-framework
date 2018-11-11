@@ -2,6 +2,11 @@
   "name": "typescript-node-framework",
   "version": "1.0.0",
   "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./dist/app.js",
+    "build": "tsc -w"
+  },
+
   "repository": "https://github.com/rsa6/typescript-node-framework.git",
   "author": "lindahsu21 <lindahsu@naver.com>",
   "license": "MIT"
